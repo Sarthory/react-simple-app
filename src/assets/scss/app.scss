@@ -1,0 +1,39 @@
+@import "config";
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: $black;
+  color: $white;
+  height: 90px;
+  padding: 0 20px 0 20px;
+
+  .logo {
+    font-size: 2em;
+  }
+
+  nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin: 0;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+footer {
+  background: $darkGrey;
+  color: $lightGrey;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
